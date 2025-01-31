@@ -1,0 +1,102 @@
+p{
+  font: arial;
+}
+.scroll{
+  height: 2000px;
+}
+.header{
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+  width:300px;
+}
+.hamburgerline{
+  width: 30px;
+  margin-left: 20px;
+  margin-right: 40px;
+  padding-left: 10px;
+}
+.youtubelogo{
+  width: 100px;
+}
+.middle-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.searchbar{
+  height: 37px;
+  width: 400px;
+  border-color: gray;
+  border-width: 0.10px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+.searchicon{
+  border: solid;
+  border-width: 0.10px;
+  border-color: gray;
+  margin-left: -1px;
+  height: 30px;
+  width: 45px;
+  padding: 4.2px;
+  background-color: rgb(237, 237, 237);
+}
+.voiceicon{
+  height: 25px;
+  width: 25px;
+  border-radius: 27px;
+  margin-left: 5px;
+  background-color: rgb(237, 237, 237);;
+  padding: 9px;
+  margin-left: 10px;
+}
+.voiceicon:hover{
+  visibility: voice search;
+}
+.right-section{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+.createbutton{
+  width: 30px;
+}
+.youtubeAppbutton{
+  width: 30px;
+}
+.notificationbutton{
+  width: 30px;
+  position: relative;
+}
+.absolute{
+  position: absolute;
+  top: 13px;
+  right: 83px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(181, 2, 2);
+  color: white;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.myprofile{
+  width: 30px;
+  border-radius:15px ;
+}

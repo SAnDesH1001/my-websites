@@ -1,0 +1,70 @@
+.body{
+  position: absolute;
+  left: 90px;
+  background-color: rgb(245, 245, 245);
+  bottom: 0px;
+  right: 0px;
+  top:70px;
+  display: flex;
+  flex-direction: row;
+}
+.border{
+  margin-left: 10px;
+  width: 330px;
+  height: 300px;
+  margin-top: 15px;
+}
+.border2{
+  
+  width: 330px;
+  height: 300px;
+  margin-left: 65px;
+  margin-top: 15px;
+}
+.border3{
+  margin-top: 15px;
+  width: 330px;
+  height: 300px;
+  margin-left: 65px;
+}
+.thumbnails, .thumbnails2, .thumbnails3{
+  
+  height: 200px;
+}
+.thumbnail1, .thumbnail2, .thumbnail3{
+  height: 200px;
+  width: 350px;
+  object-fit: cover;
+}
+.profile, .profile2, .profile3{
+  margin-top: 15px;
+  height: 90px;
+  display: flex;
+}
+.profile-border, .profile2-border, .profile3-border{
+  width: 60px;
+  padding-left: 2px;
+}
+.channelicon, .channelicon2, .channelicon3{
+  border-radius: 25px;
+  width: 50px;
+}
+.top{
+margin-bottom: 0px;
+margin-top: 5px;
+font-size: 16px;
+font-weight: bold;
+width: 250px;
+}
+.mid{
+  font-size: 13.5px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  color: rgb(124, 124, 124);
+}
+.bottom{
+  font-size: 13.5px;
+  margin-bottom: 0px;
+  margin-top: 4px;
+  color: rgb(124, 124, 124);
+}
